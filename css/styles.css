@@ -331,6 +331,15 @@ footer {
 /* smartphones - 576px */
 @media (max-width: 576px) {
 
+    .navbar-container{
+        padding: 0 1rem;
+    }
+
+    .logo {
+        width: 40px;
+        margin-top: 20px;
+    }
+
     .navbar-items li {
         font-size: 12px;
         margin-left: 10px;
@@ -372,5 +381,12 @@ footer {
     .contact-container textarea {
         width: 100%;
         margin: 10px 0;
+    }
+
+    @media (max-width:380px) {
+        .logo {
+            width: 30px;
+            margin-top: 25px;
+        }
     }
 }
